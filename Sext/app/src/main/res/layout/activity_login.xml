@@ -2,17 +2,17 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/activity_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/Theme.AppCompat.NoActionBar"
-    tools:context="com.code_mage.sext.MainActivity">
+    tools:context="com.code_mage.sext.Login">
 
     <RelativeLayout
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/register_background" >
+        android:background="@drawable/login_background" >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -43,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_medium"
-                android:text="@string/register"
+                android:text="@string/login"
                 android:textColor="@color/white"
                 android:layout_marginTop="@dimen/register_vertical_margin_medium"
                 android:layout_marginBottom="@dimen/register_vertical_margin_large"
@@ -106,12 +106,12 @@
                 android:layout_marginBottom="@dimen/register_vertical_margin">
 
                 <Button
-                    android:id="@+id/create_account_button"
+                    android:id="@+id/login_button"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/transparent_button"
                     android:fontFamily="@font/roboto"
-                    android:text="@string/create_account_title"
+                    android:text="@string/login"
                     android:textColor="@color/white" />
             </LinearLayout>
         </LinearLayout>

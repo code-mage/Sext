@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#4B86C8</color>
+    <color name="colorPrimaryDark">#3F7AB8</color>
+    <color name="colorPrimaryIcon1">#71CFF3</color>
+    <color name="colorPrimaryIcon2">#58B7E3</color>
+    <color name="colorPrimary1">#A2DBF9</color>
+    <color name="colorPrimary2">#AEE5F9</color>
+    <color name="colorPrimary3">#BEE8F8</color>
+    <color name="colorPrimary4">#CDEEFD</color>
+    <color name="colorPrimary5">#7CBCD8</color>
+    <color name="colorPrimary6">#6FA9C1</color>
+    <color name="colorPrimary7">#5E92A7</color>
+    <color name="colorPrimary8">#568090</color>
+    <color name="colorPrimary9">#88D5F3</color>
+    <color name="colorPrimary10">#a866cF</color>
+    <color name="Apricot">#FBCEB1</color>
+    <color name="Peach">#ED8D5B</color>
+    <color name="Clementine">#E8681F</color>
+    <color name="colorAccent">#F2911E</color>
+    <color name="colorAccent1">#FA7564</color>
+    <color name="colorAccent2">#E66255</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkGray">#333333</color>
+    <color name="gray">#666666</color>
+    <color name="medgray">#a6a6a6</color>
+    <color name="lightgray">#c6c6c6</color>
+    <color name="verylightgray">#e6e6e6</color>
+    <color name="transparentGary">#ccc6c6c6</color>
+    <color name="verytransparentGary">#e6e6e6e6</color>
+    <color name="black">#000000</color>
 </resources>

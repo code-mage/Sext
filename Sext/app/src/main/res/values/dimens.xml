@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">25dp</dimen>
+    <dimen name="activity_vertical_margin">15dp</dimen>
+    <dimen name="register_vertical_margin">15dp</dimen>
+    <dimen name="register_icon_vertical_margin">10dp</dimen>
+    <dimen name="register_vertical_margin_large">25dp</dimen>
+    <dimen name="register_vertical_margin_medium">10dp</dimen>
     <dimen name="tab_max_width">264dp</dimen>
     <dimen name="tab_padding_bottom">16dp</dimen>
     <dimen name="tab_label">14sp</dimen>
