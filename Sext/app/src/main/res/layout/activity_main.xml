@@ -76,8 +76,7 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/register_vertical_margin">
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -99,6 +98,30 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/register_error_container"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="@dimen/register_vertical_margin_big"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/register_error_icon"
+                    android:layout_width="18dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="18dp"
+                    android:background="@android:drawable/stat_sys_warning" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/register_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/error"
+                    android:textColor="@color/verytransparentGary" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -113,6 +136,38 @@
                     android:fontFamily="@font/roboto"
                     android:text="@string/create_account_title"
                     android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/register_vertical_margin_medium">
+                <RelativeLayout
+                    android:id="@+id/dotsL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/dot1"
+                        android:layout_width="@dimen/dot_page_indicator_size"
+                        android:layout_height="@dimen/dot_page_indicator_size"
+                        android:background="@drawable/circle_fill" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/dot2"
+                        android:layout_width="@dimen/dot_page_indicator_size"
+                        android:layout_height="@dimen/dot_page_indicator_size"
+                        android:layout_marginLeft="@dimen/dot_page_indicator_size"
+                        android:layout_toRightOf="@+id/dot1"
+                        android:background="@drawable/circle_empty" >
+                    </ImageView>
+                </RelativeLayout>
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>

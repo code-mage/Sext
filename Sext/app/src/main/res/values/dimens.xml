@@ -4,6 +4,7 @@
     <dimen name="activity_horizontal_margin">25dp</dimen>
     <dimen name="activity_vertical_margin">15dp</dimen>
     <dimen name="register_vertical_margin">15dp</dimen>
+    <dimen name="register_vertical_margin_big">30dp</dimen>
     <dimen name="register_icon_vertical_margin">10dp</dimen>
     <dimen name="register_vertical_margin_large">25dp</dimen>
     <dimen name="register_vertical_margin_medium">10dp</dimen>
@@ -11,4 +12,5 @@
     <dimen name="tab_padding_bottom">16dp</dimen>
     <dimen name="tab_label">14sp</dimen>
     <dimen name="custom_tab_layout_height">72dp</dimen>
+    <dimen name="dot_page_indicator_size">8dp</dimen>
 </resources>
